@@ -3,10 +3,11 @@
 <head>
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.png" type="image">
 </head>
 <body>
-    <div class="firstborder">
-    </div>
+    <div class="firstborder"></div>
+    <!-- navbar implementation -->
     <div class="container">
         <div>
             <ul class="navtop">
@@ -19,14 +20,15 @@
         </div>
         <div>
             <ul class="navlinks">
-                <li><a href="#" id="homebutton">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#homepage" id="homebutton">Home</a></li>
+                <li><a href="#aboutpage">About</a></li>
+                <li><a href="#projectspage">Projects</a></li>
+                <li><a href="#contactpage">Contact</a></li>
             </ul>
         </div>
     </div>
-    <div class="container2">
+    <!-- featured photo section -->
+    <div class="container2" id="homepage">
         <img src="images/profile.jpg" class="imgprofile">
         <div class="greetings">
             <div class="hello"><b>Hello,</b></div>
@@ -47,14 +49,15 @@
         </div>
     </div>
     <div class="rectangle1"><br></div>
-    <div class="titlename">
+    <!-- projects section -->
+    <div class="titlename" id="projectspage">
         <h3>PROJECTS</h3>
     </div>
     <hr class="line">
     <hr class="line">
     <div class="container3">
         <div class="gallery">
-            <img src="images/profile.jpg" alt="Forest" width="600" height="400">
+            <img src="images/proj-1.jpg" width="600" height="400">
             <div class="desc">
                 <h3>Clearance Approval Web Application</h3>
                 <p>This is a system for clearance approval in the Institute of Computer Science.
@@ -65,7 +68,7 @@
         </div>
         
         <div class="gallery">
-            <img src="images/profile.jpg" alt="Northern Lights" width="600" height="400">
+            <img src="images/proj-2.jpg" width="600" height="400">
             <div class="desc">
                 <h3>Information System of Owed Money Data</h3>
                 <p>This information system will allow us to record, in electric form, 
@@ -75,7 +78,7 @@
         </div>
         
         <div class="gallery">
-            <img src="images/profile.jpg" alt="Mountains" width="600" height="400">
+            <img src="images/proj-3.jpg" width="600" height="400">
             <div class="desc"><h3>LOLCode Interpreter</h3>
                 <p>This is an interpreter for the LOLCode Programming Language. The interpreter
                     is able to analyze each line of the program lexically, syntactically, and semantically.
@@ -83,7 +86,8 @@
             </div>
         </div>
     </div>
-    <div class="container4">
+    <!-- about page; addtl info -->
+    <div class="container4" id="aboutpage">
         <div class="about1">
             <h3>Education</h3>
             <hr>
@@ -115,6 +119,10 @@
                 <li>Problem Solving</li>
             </ul>
         </div>
+    </div>
+    <!-- footer page -->
+    <div class="container5" id="contactpage">
+        © 2024 Portfolio &nbsp;&nbsp;|&nbsp;&nbsp; 0906-279-2980 &nbsp;&nbsp;|&nbsp;&nbsp; pivargas2@up.edu.ph &nbsp;&nbsp;|&nbsp;&nbsp; 5143 Maahas Los Banos, Laguna, 4030
     </div>
 </body>
 </html> 
