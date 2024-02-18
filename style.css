@@ -13,7 +13,7 @@
 .navtop{
     list-style-type: none;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .navtop li{
@@ -56,6 +56,68 @@
     font-size: 20px;
     color: #878789;
 }
+
+.imgprofile{
+    width: 420px;
+    height: 400px;
+    align-self: center;
+    border-radius: 100%;
+}
+
+.greetings{
+    padding: 50px;
+}
+
+.hello{
+    font-size: 58px;
+    color: #5C5859;
+}
+
+.hellodesc{
+    font-size: 40px;
+    color: #5C5859;
+}
+
+.circles{
+    margin-top: 80px;
+}
+.circles li {
+    list-style-type: none;
+    display: inline;
+    padding-top: 55px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 55px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+.circles li a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+}
+
+.circles li a:hover{
+    color: #1d1d1d;
+}
+
+.paragraph{
+    margin-top: 70px;
+    color: #635f60;
+}
+
+#c1{
+    background-color: #E83555;
+}
+
+#c2{
+    background-color: #62CFD4;
+}
+
+#c3{
+    background-color: #D1C825;
+}
+
 /** end **/
 .container{
     display: flex;
@@ -68,6 +130,6 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding: 200px;
+    padding: 5px;
     background-color: #EBE5E5;
 }
