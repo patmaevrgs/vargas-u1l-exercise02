@@ -118,6 +118,101 @@
     background-color: #D1C825;
 }
 
+
+.container3 .gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 220px;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.container3 .gallery:hover{
+    border: 1px solid #D1C825;
+
+}
+
+.container3 .gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.container3 .gallery .desc{
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    color: #1d1d1d;
+}
+
+.container3 .gallery .desc h3{
+    font-size: 14px;
+}
+
+.container3 .gallery .desc p{
+    font-size: 13px;
+}
+
+.rectangle1{
+    background-color: #E83555;
+    padding: 30px;
+}
+
+.titlename{
+    margin:auto;
+    text-align: center;
+    background-color: #1d1d1d;
+    margin-top: 5px;
+    padding: 2px;
+    font-size: 26px;
+    color: white;
+}
+.line{
+    color: #62CFD4;
+    margin: 0;
+}
+
+
+.about1{
+    margin-top: 60px;
+    border: 3px double #363636;
+    padding: 20px;
+   
+}
+.about1 h3{
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: #363636;
+}
+
+.about1 h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #59595B;
+}
+
+.about1 h5{
+    margin-top: 5px;
+    font-size: 16px;
+    margin: 0;
+    color: #59595B;
+}
+
+.about1 p{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #59595B;
+}
+
+.about1 ul li{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #59595B;
+}
+.container4 div{
+    margin-left: 10px;
+}
 /** end **/
 .container{
     display: flex;
@@ -132,4 +227,19 @@
     flex-direction: row;
     padding: 5px;
     background-color: #EBE5E5;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 30px;
+    background-color: #1d1d1d;
+}
+
+.container4{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 30px;
 }
